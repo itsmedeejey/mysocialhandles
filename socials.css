@@ -1,0 +1,98 @@
+#heading{
+
+    color:yellow;
+    font-size: xxx-large;
+    
+    font-family:sans-serif;
+    text-align: center;
+    
+
+}
+#heading:hover{
+    font-family: 'Nabla';
+   text-transform: uppercase;
+    
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position:relative;
+    align-items: center;
+    background-color: rgb(43 50 72);
+}
+
+#twit{
+    position: fixed;
+    left: 56%;
+    width: 100px;
+    height: 100px;
+    border-radius: 110px;
+
+}
+#twit:hover{
+    transform: scale();
+    height: 120px;
+    width: 120px;
+}
+#user{
+    image-resolution: 5*8px;
+    border: 6px  solid black;
+    border-radius:90px;
+    position:relative;
+    width: 150px;
+    left: 46%;
+}
+#name{
+    position:relative;
+    left:45.5%;
+    color: aliceblue;
+    font-weight: bold;  
+    font-family: 'Nabla';
+    font-size: larger;
+   
+}
+
+
+#png{
+    position: fixed;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-color: rgb(43 50 72);    
+    
+
+}
+
+#png:hover{
+    transform: scale(height);
+    height: 120px;
+    width: 120px;
+}   
+#ex-text{
+    color:whitesmoke;
+   
+    text-align: center;
+    position:relative;
+    top: 57px;
+}
+#ex-text:hover{
+    color:rgb(200, 163, 223);
+    text-transform:unset;
+  
+    text-shadow: 10px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;  
+}
+#box{
+    margin: auto;
+    border-radius: 50px;
+    width: 600px;
+    height: 300px;
+    border: 3px solid white;
+    padding: 10px;
+    position: inherit;
+    top: 45px;
+
+
+}
