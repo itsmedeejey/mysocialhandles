@@ -2,7 +2,8 @@
 
     color:yellow;
     font-size: xxx-large;
-    
+    position: relative;
+    bottom: 94%;
     font-family:sans-serif;
     text-align: center;
     
@@ -44,7 +45,7 @@ body{
 }
 #name{
     position:relative;
-    left:45.5%;
+    left:46.5%;
     color: aliceblue;
     font-weight: bold;  
     font-family: 'Nabla';
@@ -89,10 +90,101 @@ body{
     border-radius: 50px;
     width: 600px;
     height: 300px;
-    border: 3px solid white;
+    border: 4px solid white;
     padding: 10px;
     position: inherit;
     top: 45px;
+}
+#box2{
+    margin: auto;
+    border-radius: 50px;
+   
+   padding: 50px;
+    width: 650px;
+    height: 50px;
+   
+    padding: 10px;
+    position: inherit;
+    top: 0px;
 
+ }  
+
+@media screen and (max-width:390px)
+{
+    body{
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+
+    }
+    #heading{
+        position:relative;
+        font-size: x-large;
+        top: -10px;
+       
+        
+        
+    }
+    #user{
+        top: 10px;
+        left: 85px;
+    }
+    #name{
+        position:relative;
+        left: 23%;
+       
+    }
+    #png{
+        position: fixed;
+        left: 6%;
+    
+    }
+    #twit{
+        position: fixed;
+        left: 44.3%;
+        
+    }
+    #box{
+        margin: auto;
+        border-radius: 50px;
+        width: 300px;
+        height: 300px;
+        border: 3px solid white;
+        padding: 10px;
+        position: inherit;
+        top: 45px;
+        right: 25px;
+    
+    }
+    #ex-text{
+        color:whitesmoke;
+       font-size: smaller;
+        text-align: center;
+        position:relative;
+        top: 130px;
+        right: 20px;
+    }
+    #box2{
+        margin: auto;
+        border-radius: 50px;
+        background-color:rgba(18, 21, 31, 0.358) ;
+       padding: 50px;
+        width: 300px;
+        height: 40px;
+        border: 3px solid rgba(0, 0, 0, 0);
+        padding: 10px;
+        position: inherit;
+        top: 0px;
+        right: 23px;
+    
+    }
+    #heading:hover{
+        font-family: 'Nabla';
+    
+        font-size:22px ;
+
+    }
+   
 
 }
