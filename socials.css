@@ -6,12 +6,13 @@
     bottom: 94%;
     font-family:sans-serif;
     text-align: center;
-    
+    transition: transform .10s; 
 
 }
 #heading:hover{
     font-family: 'Nabla';
    text-transform: uppercase;
+   transform: scale(1.01);
     
 }
 body{
@@ -28,12 +29,10 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 110px;
-
+    transition: transform .2s; 
 }
 #twit:hover{
-    transform: scale();
-    height: 120px;
-    width: 120px;
+    transform: scale(1.3);
 }
 #user{
     image-resolution: 5*8px;
@@ -60,14 +59,14 @@ body{
     width: 100px;
     height: 100px;
     border-color: rgb(43 50 72);    
+    transition: transform .2s; 
     
 
 }
 
 #png:hover{
-    transform: scale(height);
-    height: 120px;
-    width: 120px;
+    transform: scale(1.3);
+    
 }   
 #ex-text{
     color:whitesmoke;
@@ -75,6 +74,7 @@ body{
     text-align: center;
     position:relative;
     top: 57px;
+    transition: transform .2s; 
 }
 #ex-text:hover{
     color:rgb(200, 163, 223);
@@ -83,7 +83,7 @@ body{
     text-shadow: 10px;
     font-family: cursive;
     font-style: italic;
-    font-size: large;  
+    transform: scale(1.3); 
 }
 #box{
     margin: auto;
@@ -184,70 +184,6 @@ body{
     
         font-size:22px ;
 
-    }
-   
-
-}
-
-@media screen and (max-width:800px)
-{
-    #heading{
-        position:relative;
-        font-size: x-large;
-        top: -10px;
-        
-        
-    }
-    #user{
-        top: 10px;
-        left: 31%;
-    }
-    #name{
-        position:relative;
-        left: 31%;
-       
-    }
-    #png{
-        position: fixed;
-        left: 6%;
-    
-    }
-    #twit{
-        position: fixed;
-        left: 55%;
-        
-    }
-    #box{
-        margin: auto;
-        border-radius: 50px;
-        width: 370px;
-        height: 300px;
-        border: 3px solid white;
-        padding: 10px;
-        position: inherit;
-        top: 45px;
-    
-    }
-    #ex-text{
-        color:whitesmoke;
-       font-size: smaller;
-        text-align: center;
-        position:relative;
-        top: 130px;
-        right: 25px;
-    }
-    #box2{
-        margin: auto;
-        border-radius: 50px;
-        background-color:rgb(25, 29, 42) ;
-       padding: 50px;
-        width: 350px;
-        height: 40px;
-        border: 3px solid rgb(0, 0, 0);
-        padding: 10px;
-        position: inherit;
-        top: 0px;
-    
     }
    
 
